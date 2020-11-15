@@ -1,0 +1,16 @@
+# Disable sudo to speed up the build
+sudo: false
+
+# Set the build language
+language: python
+
+# Set the python version
+python: 3.6
+
+# Install the
+install:
+  - pip install -r requisitos.txt
+
+# Run the unit test
+script:
+  - pytest
