@@ -55,3 +55,5 @@ def ProoveedorInactivar (request, id):
         ctx = {'obj': 'ok'}
         return HttpResponse('proveedor inactivado')
     return render(request, template_name, ctx)
+
+
